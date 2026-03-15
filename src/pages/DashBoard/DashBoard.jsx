@@ -1,5 +1,5 @@
 import { DashBoardBody } from "./DashBoardBody";
-import { DashBoardHeader } from "./DashBoardHeader";
+import { DashBoardHeader } from "../../component/DashBoardHeader";
 
 export function DashBoard() {
   return (
