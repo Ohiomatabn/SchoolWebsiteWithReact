@@ -1,4 +1,13 @@
+import { useState } from "react";
+import { currentDateAndTime } from "./currentTime";
+
 export function NavBar() {
+  const [currentDate, setCurrentDate] = useState(currentDateAndTime());
+
+  setInterval(() => {
+    setCurrentDate(currentDateAndTime);
+  }, 1000);
+
   return (
     <nav className="navbar">
       <div className="container flex">
@@ -7,7 +16,7 @@ export function NavBar() {
           <h2>World Best Sec Sch</h2>
         </div>
         <div className="current-date-time">
-          <p className="js-now">30-Nov-2025 5:23:11</p>
+          <p className="js-now">{currentDate}</p>
         </div>
       </div>
     </nav>
