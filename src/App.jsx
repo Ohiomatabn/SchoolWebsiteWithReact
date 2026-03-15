@@ -1,6 +1,6 @@
 import { NavBar } from "./component/NavBar";
 import { SideBar } from "./component/SideBar";
-import { DashBoard } from "./DashBoard/DashBoard";
+import { DashBoard } from "./pages/DashBoard/DashBoard";
 
 function App() {
   return (
