@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function SideBar() {
   return (
     <aside className="sidebar" id="js-sidebar">
@@ -13,50 +15,50 @@ export function SideBar() {
       </div>
       <ul>
         <li className="active">
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-dashboard"></i>Dashboard
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="HTML/profile.html">
+          <Link to="/profile">
             {" "}
             <i className="fa fa-user"></i>Profile
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-dashboard"></i>Fee Allocation
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-users"></i>Staffs
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-arrow-right-arrow-left"></i>School Transfer
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-money-bill"></i>Debt
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="HTML/result.html">
+          <Link to="HTML/result.html">
             <i className="fa fa-book"></i>Result
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-calendar"></i>Calendar
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="#">
+          <Link to="/">
             <i className="fa fa-key"></i>Password Reset
-          </a>
+          </Link>
         </li>
       </ul>
     </aside>
