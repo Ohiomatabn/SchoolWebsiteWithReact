@@ -46,7 +46,7 @@ export function SideBar() {
           </Link>
         </li>
         <li>
-          <Link to="HTML/result.html">
+          <Link to="/result">
             <i className="fa fa-book"></i>Result
           </Link>
         </li>
