@@ -2,7 +2,7 @@ export const dashBoardDetails = [
   {
     name: "My Profile",
     image: "my_profile.png",
-    url: "../HTML/profile.html",
+    url: "/profile",
   },
   {
     name: "Fee Allocation",
@@ -22,7 +22,7 @@ export const dashBoardDetails = [
   {
     name: "Result",
     image: "result.png",
-    url: "../HTML/result.html",
+    url: "/result",
   },
   {
     name: "Staffs",
